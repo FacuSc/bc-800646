@@ -23,4 +23,12 @@
 # Clase 29:
 # Creamos el archivo .prettierrc y le damos la configuracion que copiamos de la pagina de prettier https://prettier.io/
 # Lo pongo en uso: Settings > Default Formatter > Prettier
-# ALT + SHIFT + F 
+# ALT + SHIFT + F
+
+# Creamos SASS > Pages > _index.scss (Para modificar el css de la pagina index)
+# Creamos SASS > Components > _cards.scss (Para modificar el css de las cards)
+
+# Importamos ambos al main.scss
+
+# Agregamos GAP (Separacion) entre las cards (Se lo damos al padre> cards.container)
+
