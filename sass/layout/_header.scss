@@ -151,4 +151,10 @@
     &__bottom-bread {
         bottom: .8em;
     }
+
+    @media (max-width: 768px) {
+        & {
+            display: block;
+        }
+    }
 }

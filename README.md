@@ -32,3 +32,4 @@
 
 # Agregamos GAP (Separacion) entre las cards (Se lo damos al padre> cards.container)
 
+# Algunos navegadores no detectan ciertas propiedades como el transform. Para ello agregamos -moz- y -webkit- antes de la propiedad (_cards.scss) 
