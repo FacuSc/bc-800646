@@ -1,5 +1,7 @@
 # PROYECTO INTEGRADOR - EDUCACION IT
 
+
+# Clase 28:
 # ---------------SASS------------------
 # Reseteo el CSS (SASS > Base > _reset.scss)
 # Creo la tipografia CSS (SASS > Base > _typography.scss)
@@ -13,4 +15,12 @@
 #   1. Header w/ Navbar
 #   2. Main
 
-# 
+
+
+
+
+
+# Clase 29:
+# Creamos el archivo .prettierrc y le damos la configuracion que copiamos de la pagina de prettier https://prettier.io/
+# Lo pongo en uso: Settings > Default Formatter > Prettier
+# ALT + SHIFT + F 
