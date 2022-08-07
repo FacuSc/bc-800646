@@ -240,4 +240,104 @@ body {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+.contact-intro {
+  text-align: center;
+  align-items: center;
+}
+.contact-intro__title {
+  margin-bottom: 25px;
+}
+.contact-intro__paragraph:last-child {
+  margin-bottom: 50px;
+}
+.contact-intro__paragraph__span {
+  font-weight: bold;
+}
+
+.contact__container {
+  text-align: center;
+  margin-left: 20%;
+}
+
+.contact__fieldset {
+  width: 80%;
+  background-color: white;
+  border: 2px solid black;
+}
+.contact__fieldset__legend {
+  font-size: 12px;
+  text-align: left;
+  margin-left: 20px;
+  border-radius: 3px;
+  background-color: #800080;
+  border: 2px solid black;
+  color: white;
+}
+
+.form-contact {
+  display: block;
+}
+.form-contact__telefono {
+  display: flex;
+  justify-content: center;
+}
+.form-contact__telefono__label {
+  width: 20%;
+}
+.form-contact__telefono__input {
+  width: 35%;
+}
+@media (max-width: 500px) {
+  .form-contact__telefono {
+    display: block;
+  }
+  .form-contact__telefono__label {
+    width: 100%;
+  }
+  .form-contact__telefono__input {
+    width: 100%;
+  }
+}
+.form-contact__label {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+.form-contact__input {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 50%;
+  margin-bottom: 25px;
+}
+.form-contact__input:focus:-moz-placeholder-shown {
+  height: 25px;
+  border: 2px solid black;
+  box-shadow: 8px 3px 3px #800080;
+}
+.form-contact__input:focus:-ms-input-placeholder {
+  height: 25px;
+  border: 2px solid black;
+  box-shadow: 8px 3px 3px #800080;
+}
+.form-contact__input:focus:placeholder-shown {
+  height: 25px;
+  border: 2px solid black;
+  box-shadow: 8px 3px 3px #800080;
+}
+.form-contact__input__textarea {
+  width: 50%;
+}
+.form-contact__button {
+  display: block;
+  margin-left: 48%;
+  padding: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #eeeeee;
 }/*# sourceMappingURL=main.css.map */

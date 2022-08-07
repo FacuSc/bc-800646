@@ -4,10 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
     <title>Contacto</title>
 </head>
 <body>
-    <h1>Contacto</h1>
+  <header class="main-header">
+    <input type="checkbox" id="menu" />
+
+    <nav class="nav-bar">
+      <!-- START NAVBAR -->
+      <ul class="nav-bar__nav-list">
+        <li class="nav-bar__nav-item">
+          <a href="/index.html" class="nav-bar__nav-link">Inicio</a>
+        </li>
+        <li class="nav-bar__nav-item">
+          <a href="/alta.html" class="nav-bar__nav-link">Alta</a>
+        </li>
+        <li class="nav-bar__nav-item">
+          <a href="/contacto.html" class="nav-bar__nav-link">Contacto</a>
+        </li>
+        <li class="nav-bar__nav-item">
+          <a href="/nosotros.html" class="nav-bar__nav-link">Nosotros</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- navbar -->
+  </header>
+  <!-- header -->
+  <main>
+
+    <div class="contact-intro">
+      <p><img src="/img/otros/tel-contact.svg" alt="Telefono"></p>
+      <h1 class="contact-intro__title">¡Contactanos!</h1>
+      <p class="contact-intro__paragraph">¿Necesitás hablar con nosotros? <span class="contact-intro__paragraph__span">¡Estamos para ayudarte!</span></p>
+      <p class="contact-intro__paragraph">Completa el siguiente formulario y un asesor se va a poner en contacto con vos a la brevedad.</p>
+    </div>
+
+    <div class="contact__container">
+      <fieldset class="contact__fieldset">
+        <legend class="contact__fieldset__legend"><h2>Formulario de contacto</h2></legend>
+        <form class="form-contact">
+          <label class="form-contact__label" for="contacto-nombre">Nombre y Apellido: *</label>
+          <input type="text" class="form-contact__input" id="contacto-nombre" placeholder="Ingresa tu Nombre y Apellido" minlength="4" required>
+          <label class="form-contact__label" for="contacto-mail">Email: *</label>
+          <input type="email" class="form-contact__input" id="contacto-mail" placeholder="Ingresa tu Email" required>
+          <div class="form-contact__telefono">
+            <div class="form-contact__telefono__label"> 
+              <label class="form-contact__label" for="contacto-telefono-area">Cod. area: *</label>
+              <input type="number" class="form-contact__input" id="contacto-telefono-area" placeholder="Ej: 299" min="2" required>
+            </div>
+            <div class="form-contact__telefono__input">
+              <label class="form-contact__label" for="contacto-telefono">Teléfono: *</label>
+              <input type="number" class="form-contact__input" id="contacto-telefono" placeholder="Sin el 11" min="6" required>
+            </div>
+          </div>
+          <label class="form-contact__label" for="contacto-mensaje">Comentario:</label>
+          <textarea name="contacto-mensaje" id="contacto-mensaje" class="form-contact__input__textarea" cols="20" rows="5"></textarea>
+          <button class="form-contact__button">Enviar</button>
+        </form>
+      </fieldset>
+    </div>
+  </main>
 </body>
 </html>
