@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 41" width="50" height="41">
+	<title>Nuevo proyecto</title>
+	<defs>
+		<image  width="50" height="41" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAApAQMAAABN4OiqAAAAAXNSR0IB2cksfwAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAAANSURBVHicY2AYBdQAAAFIAAFiQpgXAAAAAElFTkSuQmCC"/>
+		<image  width="36" height="36" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAMAAADW3miqAAAAAXNSR0IB2cksfwAAAfJQTFRF+fP69enq6s/UzrjPzsfg7uXy+e/k0qK6lz+ngA2ngDWtm5HN4uX3+fP36r29ky2nl5za8fP65qaxhA2ngC2qi0uti1q0p4q9q4q9o2StizWniILR7vP68cG6iA2ngC2vr7Hd6uv3+fP6+e/w4sHBn0ink5/h+fPXrz+ngGHE4u/6+fPnynqqgA2vv9n67rG0gDm3zun69eHd1rjU4uX3+fPhulqniIrX+fPqx2ynl6rq9cS6gCOv+ce9gDm92vP6+fPUqyOnutf60oKnk6Lk+fPRpw2ngA2tttP6+dnEkw2ngA260vP6+fP37tPNtn60k0iqhD+tk2y9v8Hk9fP67q6xgA2qr8f3+fPkv1qnp733gFrE5vP6+eXUslqngEi0w9f0+fPw3qq6l1q0sr3nzn6n+cG6+dfHly2ngCOtq8HwgH7R+enRpz+ni2jAw8fg7uXq6s/Pv4Kvv9f33pitgILRynanq73t8c/BgE/B3vP65qKv+dPBjw2np73w+dfEo7jygGTH7vP61oqqgHbN6qavv2Gno7Tyiw2ngCO61vP6+evNow2n9dfEgGzKgFbEgA23zvP6tnaxi0iq+fPk9cG67qqx+evRpzmngGHB3un67sTAn6La+e/q3rHAm1Kq+e/w7uXk3sHPzrjX4uXq8ev3k6mkIAAAAKZ0Uk5TAAD///8AYP//////cAD///8A/////////////wD///////////////////////////////////8A////////8P///////////////////////////////////////////////////////////////////////////////////////////////////////////////2D//////////wD//wBg//9wAC8AF2MAAAG/SURBVHicY2CAAkYmZjTAwsqAAtjYOTixAC5uHrgSXj5+bErAQEAQqkZIGMQVERUTl0AASVEpsCppGbAiWTlOTnkFRSUMoKyiClSlBlKjrsHJqamFqQQEtHU4OXX1gIr0OTkNDLGpMDI2UTI14+Q0Z2CwsOTktMKmxlqO00ZPyVaO086ewcGRU9cJmyJnoHtclFzdON09GDy9OL19YBK+fv4BnJyBQcEhSkqhnJxh4UoRkZycUQxA86JjoGpi42DBE5+glJiUnALUlgo0jyGNE64oPQMRiJlZCFvBirIh3JxcoGRefkFBYREwdG2KIaIlUEWlYF5iGVB/OUSmAmhmZRWYWY2iqKaWM6wO5oN6L07OBiyKgOY2NsG92czJ2RICV9QKVRTRxsnZjgilmg7Ozi64omqYokhgqCEUdfdAg494RURZR5TDSQsC5MDsxQzMviYiooWoCO7HmlSgPgAnFWCimzAR7im/SZNhiQ4CIIkOGGrIgYgOIMl3SiSOjAABU8EZgWEariwFAtAsxTB9BifnzFnY1cAzJ1HZnLgCg4F3Ns6iJ3OOILyEmjtvPqFCDAwWLFyEWhouXrIUJgcA2sLElOj3/JgAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+	<use id="Capa 1" href="#img2" x="7" y="3"/>
+</svg>

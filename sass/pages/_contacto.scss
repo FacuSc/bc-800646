@@ -101,3 +101,30 @@ body {
     }
 }
 
+.icons-container {
+    display: flex;
+    position: relative;
+    width: 300px;
+    height: 85px;
+    left: 84%;
+    margin-top: 200px;
+    z-index: 1;
+
+    &__whatsapp {
+        margin-left: 20px;
+        
+    }
+
+    &__ubicacion {
+        margin-left: 20px;
+    }
+
+    &__btn {
+        border: none;
+
+        &:hover {
+            scale: 1.2;
+        }
+    }
+
+}

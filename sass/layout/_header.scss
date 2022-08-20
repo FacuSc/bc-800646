@@ -22,7 +22,7 @@
     }
 
     &:checked ~ .search-bar .menu-toggle__label {
-        background-color: yellow;
+        background-color: rgb(230, 159, 29);
     }
 }
 
@@ -32,7 +32,7 @@
 /******************************************/
 
 .nav-bar {
-    background-color: mediumaquamarine;
+    background-color: #1B1B1D;
 
     &__nav-list {
         display: flex;
@@ -48,15 +48,24 @@
 
     &__nav-item {
         text-align: center;
-        background-color: pink;
+        background-color: #1B1B1D;
     }
 
     &__nav-link {
         display: block;
-        background-color: purple;
+        background-color: #1B1B1D;
         color: white;
-        padding: 1em 2em;
+        font-weight: bold;
+        padding: .4em .5em;
+        margin: 2px;
         text-decoration: none;
+        text-transform: uppercase;
+
+        &:hover {
+            scale: 1.1;
+            border: 1px solid white;
+            box-shadow: 1px 3px white;
+        }
     }
 
     @media (max-width: 768px) {
@@ -71,9 +80,10 @@
 /******************************************/
 
 .search-bar {
-    background-color: olivedrab;
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid grey;
+    box-shadow: 1px 3px black;
 
     &__logo-container,
     &__form-container {
@@ -81,32 +91,68 @@
     }
 
     &__logo-container {
-        background-color: yellow;
+        background-color: #121212;
+
+        &::before {
+            content: url(../../img/logo.svg);
+            background-color: #121212;
+        }
+
+        &:hover {
+            animation: anim1 4s;
+        }
     }
 
     &__form-container {
-        background-color: gold;
+        background-color: #121212;
         display: flex;
         flex-basis: 100%;
         justify-content: center;
     }
 
     &__form-label {
-        background-color: greenyellow;
+        background-color: white;
+        color: rgb(68, 64, 64);
+        margin-right: 25px;
+        display: none;
     }
 
     &__form-search {
-        background-color: deeppink;
+        background-color: rgba(255, 255, 255, 0.856);
         width: 70%;
+        height: 40px;
+        border-radius: 15px;
+
+        &:focus {
+            scale: 1.05;
+            border: 3px solid white;
+            box-shadow: 2px 5px grey;
+            text-decoration: underline;
+        }
     }
 
     &__form-submit {
-        background-color: darkslategrey;
+        background-color: #1B1B1D;
+        margin-left: 25px;
+        padding: 5px;
+        border-radius: 15px;
+        height: 30px;
+        color: white;
+
+        &:hover {
+            background-color: white;
+            color: black;
+        }
     }
 
     &__carrito-container {
         flex: 0 0 3em;
-        background-color: goldenrod;
+        background-color: #121212;
+
+        &::after {
+            content: url(/img/otros/carrito.svg);
+            background-color: #121212;
+        }
     }
 }
 
@@ -156,5 +202,19 @@
         & {
             display: block;
         }
+    }
+}
+
+
+@keyframes anim1 {
+    0% {
+        display: none;
+    }
+    50% {
+        //transform: skewx(-110deg);
+        transform: rotateX(180deg);
+    }
+    100% {
+        display: contents;
     }
 }
